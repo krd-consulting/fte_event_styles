@@ -1,0 +1,14 @@
+<?php
+
+function fte_event_styles_preprocess_html(&$variables) {
+
+  global $theme;
+
+  if ($theme === variable_get('admin_theme', 'seven')) {
+
+    // Reference your custom stylesheet.
+    drupal_add_css(drupal_get_path('module', 'fte_event_styles') . '/css/fte_event_styles.css', array('weight' => CSS_THEME));
+  }
+}
+
+?>

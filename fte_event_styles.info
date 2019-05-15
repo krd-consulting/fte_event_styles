@@ -1,0 +1,3 @@
+name = FTE Event Styles
+description = Fintalex custom module for injecting Civicrm Event Pages styles to the Seven Theme (Drupal 7). 
+core = 7.x
